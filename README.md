@@ -41,7 +41,8 @@ A process is a program that is loaded and running in memory.
 ### 1.1 Structure of a Process
 * File handles
 * Registers
-* Program Counter (PC) - Is a register that contains the memory address of the next instruction that is to be executed.
+* Program Counter (PC) 
+* * Is a register that contains the memory address of the next instruction that is to be executed.
 * Process ID
 * Process Group
 * Stack
@@ -55,10 +56,22 @@ Each process is allocated one thread by default.
 
 
 ## 2. Thread
+A thread is a sequeunce of instructions within a process that can be executed independently by the operating system scheduler. Threads use the same address space as the current
+process. As a result switching between threads is faster than switching between processes because processes have to switch address space. All threads in a process share
+process instruction and process data. A change in shared data in one thread can be seen by the other threads in the same process.
 
-A thread is a sequeunce of instructions within a process. These instructions can be executed independently by the operating system scheduler.
+### 2.1 Thread Structure
+* Thread ID
+* Register state
+* * Program Counter (PC) 
+* * Stack Pointer
+* Stack
+* Signal Mask
+* Priority
+* Thread-private storage
 
-### 2.1 Concurrency using Threads
+
+### 2.2 Concurrency using Threads
 
 
 ## 3. PThreads
