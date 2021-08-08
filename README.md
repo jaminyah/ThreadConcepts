@@ -5,23 +5,23 @@ primary motivation is to discuss concurrency using threads, a light examination 
 
 ## Table of Contents
 
-1. Process
+### 1. Process
     1.1 - Structure of a process
     1.2 - Concurrency using processes
 
-2. Threads
-    2.1 - Concurrency using threads
-    2.2 - Thread Structure
-    2.3 - Synchronization
-    2.3.1 - Synchronization Models
-    2.3.2 - Mutex Lock
-    2.3.3 - Read/Write Lock
-    2.3.4 - Condition Variable
-    2.3.5 - Semaphores
-    2.3.5.1 - Counting Semaphores
-    2.3.5.2 - Binary Semaphores
-    2.3.6 - Barriers
-    2.3.6 - Spinlock
+### 2. Threads
+    2.1 - Concurrency using threads <br/>
+    2.2 - Thread Structure <br/>
+    2.3 - Synchronization <br/>
+    2.3.1 - Synchronization Models <br/>
+    2.3.2 - Mutex Lock <br/>
+    2.3.3 - Read/Write Lock <br/>
+    2.3.4 - Condition Variable <br/>
+    2.3.5 - Semaphores <br/>
+    2.3.5.1 - Counting Semaphores <br/>
+    2.3.5.2 - Binary Semaphores <br/>
+    2.3.6 - Barriers <br/>
+    2.3.6 - Spinlock <br/>
 
 3. PThreads
 
