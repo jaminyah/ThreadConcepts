@@ -42,7 +42,7 @@ A process is a program that is loaded and running in memory.
 * File handles
 * Registers
 * Program Counter (PC) 
-* * Is a register that contains the memory address of the next instruction that is to be executed.
+    * Is a register that contains the memory address of the next instruction that is to be executed.
 * Process ID
 * Process Group
 * Stack
@@ -63,8 +63,8 @@ process instruction and process data. A change in shared data in one thread can 
 ### 2.1 Thread Structure
 * Thread ID
 * Register state
-* * Program Counter (PC) 
-* * Stack Pointer
+    * Program Counter (PC) 
+    * Stack Pointer
 * Stack
 * Signal Mask
 * Priority
