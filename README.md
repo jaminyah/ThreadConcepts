@@ -23,17 +23,17 @@ primary motivation is to discuss concurrency using threads, a light examination 
     2.3.6 - Barriers
     2.3.6 - Spinlock
 
-3. PThreads
+    3. PThreads
 
-4. Objective Threads
+    4. Objective Threads
 
-5. Swift Threads
+    5. Swift Threads
 
-6. C++ Threads
+    6. C++ Threads
 
-7. Java Threads
+    7. Java Threads
 
-8. Go Threads
+    8. Golang Threads
 
 ## 1. Process
 A process is a program that is loaded and running in memory.
