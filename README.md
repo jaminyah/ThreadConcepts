@@ -21,19 +21,21 @@ primary motivation is to discuss concurrency using threads, a light examination 
     2.3.5.1 - Counting Semaphores
     2.3.5.2 - Binary Semaphores
     2.3.6 - Barriers
-    2.3.6 - Spinlock
+    2.3.7 - Spinlock
+    2.3.8 - Race Condition
+    2.3.9 - Dead Lock
 
-    3. PThreads
+    3. Pthread
 
-    4. Objective Threads
+    4. NSThread
 
-    5. Swift Threads
+    5. Swift Thread
 
-    6. C++ Threads
+    6. C++ Thread
 
-    7. Java Threads
+    7. Java Thread
 
-    8. Golang Threads
+    8. Golang Thread
 
 ## 1. Process
 A process is a program that is loaded and running in memory.
@@ -56,9 +58,7 @@ Each process is allocated one thread by default.
 
 
 ## 2. Thread
-A thread is a sequeunce of instructions within a process that can be executed independently by the operating system scheduler. Threads use the same address space as the current
-process. As a result switching between threads is faster than switching between processes because processes have to switch address space. All threads in a process share
-process instruction and process data. A change in shared data in one thread can be seen by the other threads in the same process.
+The term "Thread", as is used commonly in Computer Science, is a shortened version of the more accurate term "Thread of execution." A thread is a sequeunce of instructions within a process that can be executed independently by the operating system scheduler. Threads use the same address space as the current process in which it exists. As a result switching between threads is faster than switching between processes. This is because processes have to switch address space. All threads, in a process, share process instruction and process data. Making a change to shared data by one thread affects the shared data available to other threads in the same process.
 
 ### 2.1 Thread Structure
 * Thread ID
